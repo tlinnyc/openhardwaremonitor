@@ -19,11 +19,6 @@ namespace OpenHardwareMonitorReport {
       Computer computer = new Computer();
      
       computer.CPUEnabled = true;
-      computer.FanControllerEnabled = true;
-      computer.GPUEnabled = true;
-      computer.HDDEnabled = true;
-      computer.MainboardEnabled = true;
-      computer.RAMEnabled = true;
 
       computer.Open();
 
